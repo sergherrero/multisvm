@@ -19,12 +19,13 @@ These are some of the speedups reported during the training phase of the classif
 
 These are some of the speedups reported during the testing phase of the classifier:
 
-Dataset	  Tasks	      	GPU (sec)	LIBSVM (sec)	Speedup
-Adult	  Binary(2)	1.10		42.7		38.77x
-Web	  Binary(2)	2.51		75		29.88x
-Mnist	  Binary(2)	4.43		496.5		112.19x
-Usps	  Binary(2)	0.07		1 		13.72x
-Mnist	  OVA(10)	14.00		683.9		48.85x
-Usps	  OVA(10)	0.13		3.62		27.84x
-Shuttle	  OVA(7)	0.49		1.43		2.92x
-Letter	  OVA(26)	2.02		6.77		3.35x
+|Dataset  | Tasks     | GPU (sec)  | LIBSVM (sec) | Speedup  |
+|:-------:|:---------:|-----------:|-------------:|---------:|
+| Adult	  | Binary(2) |	1.10	   | 42.7.0	  | 38.77x   |
+| Web	  | Binary(2) |	2.51	   | 75.00	  | 29.88x   |
+| Mnist	  | Binary(2) |	4.43	   | 496.50       | 112.19x  |
+| Usps	  | Binary(2) |	0.07	   | 1.00 	  | 13.72x   |
+| Mnist   | OVA(10)   |	14.00	   | 683.90	  | 48.85x   |
+| Usps	  | OVA(10)   |	0.13	   | 3.62	  | 27.84x   |
+| Shuttle | OVA(7)    |	0.49	   | 1.43	  | 2.92x    |
+| Letter  | OVA(26)   |	2.02	   | 6.77	  | 3.35x    |
