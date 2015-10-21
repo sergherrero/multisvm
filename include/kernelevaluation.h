@@ -1,0 +1,31 @@
+void kerneleval ( 	float* ,
+					float* ,
+					float* ,
+					float* ,
+					float* ,
+					int ,
+					int ,
+					int ,
+					int ,
+					float ,
+					int );
+
+void rbfkerneleval ( 		float*,
+							float*,
+							float*,
+							float*,
+							float*,
+							int,
+							int,
+							int,
+							int,
+							float);
+
+void linearkerneleval ( 	float*,
+							float*,
+							float*,
+							float*,
+							int,
+							int,
+							int,
+							int);

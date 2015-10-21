@@ -1,0 +1,12 @@
+void trainclassifier (			float* ,
+								int* ,
+								int* ,
+								float*,
+								int ,
+								int ,
+								int ,
+								float* ,
+								float* ,
+								float,
+								int,
+								float);
